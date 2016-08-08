@@ -1,0 +1,11 @@
+C:\Users\vadla\Documents\GitHub\Database-Team10\InventoryManagement\InventoryManagement\bin\Debug\InventoryManagement.exe.config
+C:\Users\vadla\Documents\GitHub\Database-Team10\InventoryManagement\InventoryManagement\bin\Debug\InventoryDB.mdf
+C:\Users\vadla\Documents\GitHub\Database-Team10\InventoryManagement\InventoryManagement\bin\Debug\InventoryDB_log.ldf
+C:\Users\vadla\Documents\GitHub\Database-Team10\InventoryManagement\InventoryManagement\bin\Debug\InventoryManagement.exe
+C:\Users\vadla\Documents\GitHub\Database-Team10\InventoryManagement\InventoryManagement\bin\Debug\InventoryManagement.pdb
+C:\Users\vadla\Documents\GitHub\Database-Team10\InventoryManagement\InventoryManagement\obj\Debug\InventoryManagement.csprojResolveAssemblyReference.cache
+C:\Users\vadla\Documents\GitHub\Database-Team10\InventoryManagement\InventoryManagement\obj\Debug\InventoryManagement.Dashboard.resources
+C:\Users\vadla\Documents\GitHub\Database-Team10\InventoryManagement\InventoryManagement\obj\Debug\InventoryManagement.Properties.Resources.resources
+C:\Users\vadla\Documents\GitHub\Database-Team10\InventoryManagement\InventoryManagement\obj\Debug\InventoryManagement.csproj.GenerateResource.Cache
+C:\Users\vadla\Documents\GitHub\Database-Team10\InventoryManagement\InventoryManagement\obj\Debug\InventoryManagement.exe
+C:\Users\vadla\Documents\GitHub\Database-Team10\InventoryManagement\InventoryManagement\obj\Debug\InventoryManagement.pdb
