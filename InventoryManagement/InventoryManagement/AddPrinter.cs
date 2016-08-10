@@ -1,6 +1,8 @@
-﻿using System;
+﻿using InventoryManagement.Properties;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.Configuration;
 using System.Data;
 using System.Data.SqlClient;
 using System.Drawing;
@@ -22,7 +24,8 @@ namespace InventoryManagement
         {
             SqlManager SQLManager;
 
-            SQLManager = new SqlManager(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\vadla\Documents\GitHub\Database-Team10\InventoryManagement\InventoryManagement\InventoryDB.mdf;Integrated Security=True");
+            SQLManager = new SqlManager(Settings.Default.InventoryDBConnectionString);
+
 
             SqlCommand insertAsset = new SqlCommand();
             insertAsset.CommandText = "INSERT INTO Assets (SerialNumber) OUTPUT Inserted.AssetID VALUES (@SerialNumber)";

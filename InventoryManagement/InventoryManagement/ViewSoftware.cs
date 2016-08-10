@@ -1,6 +1,8 @@
-﻿using System;
+﻿using InventoryManagement.Properties;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.Configuration;
 using System.Data;
 using System.Data.SqlClient;
 using System.Drawing;
@@ -13,7 +15,7 @@ namespace InventoryManagement
 {
     public partial class ViewSoftware : Form
     {
-        string ConnectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\vadla\Documents\GitHub\Database-Team10\InventoryManagement\InventoryManagement\InventoryDB.mdf;Integrated Security=True";
+        string ConnectionString = Settings.Default.InventoryDBConnectionString;
 
         BindingSource bindingSource1 = new BindingSource();
         SqlDataAdapter dataAdapter = new SqlDataAdapter();
