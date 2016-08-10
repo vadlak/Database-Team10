@@ -9,3 +9,11 @@ C:\Users\vadla\Documents\GitHub\Database-Team10\InventoryManagement\InventoryMan
 C:\Users\vadla\Documents\GitHub\Database-Team10\InventoryManagement\InventoryManagement\obj\Debug\InventoryManagement.csproj.GenerateResource.Cache
 C:\Users\vadla\Documents\GitHub\Database-Team10\InventoryManagement\InventoryManagement\obj\Debug\InventoryManagement.exe
 C:\Users\vadla\Documents\GitHub\Database-Team10\InventoryManagement\InventoryManagement\obj\Debug\InventoryManagement.pdb
+C:\Users\vadla\Documents\GitHub\Database-Team10\InventoryManagement\InventoryManagement\obj\Debug\InventoryManagement.AddUser.resources
+C:\Users\vadla\Documents\GitHub\Database-Team10\InventoryManagement\InventoryManagement\obj\Debug\InventoryManagement.AddSoftware.resources
+C:\Users\vadla\Documents\GitHub\Database-Team10\InventoryManagement\InventoryManagement\obj\Debug\InventoryManagement.AddPrinter.resources
+C:\Users\vadla\Documents\GitHub\Database-Team10\InventoryManagement\InventoryManagement\obj\Debug\InventoryManagement.ViewUsers.resources
+C:\Users\vadla\Documents\GitHub\Database-Team10\InventoryManagement\InventoryManagement\obj\Debug\InventoryManagement.AddLaptop.resources
+C:\Users\vadla\Documents\GitHub\Database-Team10\InventoryManagement\InventoryManagement\obj\Debug\InventoryManagement.AddComputer.resources
+C:\Users\vadla\Documents\GitHub\Database-Team10\InventoryManagement\InventoryManagement\obj\Debug\InventoryManagement.ViewPrinters.resources
+C:\Users\vadla\Documents\GitHub\Database-Team10\InventoryManagement\InventoryManagement\obj\Debug\InventoryManagement.ViewSoftware.resources

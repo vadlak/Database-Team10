@@ -61,6 +61,36 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddComputer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddComputer.Designer.cs">
+      <DependentUpon>AddComputer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddLaptop.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddLaptop.Designer.cs">
+      <DependentUpon>AddLaptop.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddPrinter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddPrinter.Designer.cs">
+      <DependentUpon>AddPrinter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddSoftware.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddSoftware.Designer.cs">
+      <DependentUpon>AddSoftware.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddUser.Designer.cs">
+      <DependentUpon>AddUser.cs</DependentUpon>
+    </Compile>
     <Compile Include="Dashboard.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -75,6 +105,39 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SqlManager.cs" />
+    <Compile Include="ViewPrinters.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewPrinters.Designer.cs">
+      <DependentUpon>ViewPrinters.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewSoftware.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewSoftware.Designer.cs">
+      <DependentUpon>ViewSoftware.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewUsers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewUsers.Designer.cs">
+      <DependentUpon>ViewUsers.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AddComputer.resx">
+      <DependentUpon>AddComputer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddLaptop.resx">
+      <DependentUpon>AddLaptop.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddPrinter.resx">
+      <DependentUpon>AddPrinter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddSoftware.resx">
+      <DependentUpon>AddSoftware.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddUser.resx">
+      <DependentUpon>AddUser.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Dashboard.resx">
       <DependentUpon>Dashboard.cs</DependentUpon>
     </EmbeddedResource>
@@ -87,6 +150,15 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="ViewPrinters.resx">
+      <DependentUpon>ViewPrinters.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewSoftware.resx">
+      <DependentUpon>ViewSoftware.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewUsers.resx">
+      <DependentUpon>ViewUsers.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="InventoryDBDataSet.xsc">
       <DependentUpon>InventoryDBDataSet.xsd</DependentUpon>
     </None>

@@ -23,20 +23,55 @@ namespace InventoryManagement
 
         private void Dashboard_Load(object sender, EventArgs e)
         {
-            SQLManager = new SqlManager(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\vadla\Documents\GitHub\Database-Team10\InventoryManagement\InventoryManagement\InventoryDB.mdf;Integrated Security=True");
 
-            SqlCommand cmd = new SqlCommand();
-            cmd.CommandText = "SELECT * FROM Users";
-            cmd.CommandType = CommandType.Text;
+        }
 
-            SQLManager.Open();
-            SqlDataReader temp = SQLManager.ExecuteQuery(cmd);
-            SQLManager.Close();
+        private void button1_Click(object sender, EventArgs e)
+        {
+            AddUser newUserForm = new AddUser();
+            newUserForm.Show();
+        }
 
-            SQLManager.Open();
-            SqlDataReader temp1 = SQLManager.ExecuteQuery("SELECT * FROM Users");
-            SQLManager.Close();
+        private void button2_Click(object sender, EventArgs e)
+        {
+            AddSoftware newSoftwareForm = new AddSoftware();
+            newSoftwareForm.Show();
+        }
 
+        private void button3_Click(object sender, EventArgs e)
+        {
+            AddPrinter newPrinterForm = new AddPrinter();
+            newPrinterForm.Show();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            ViewUsers newViewUsers = new ViewUsers();
+            newViewUsers.Show();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            AddLaptop newAddLaptop = new AddLaptop();
+            newAddLaptop.Show();
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            AddComputer newAddComputer = new AddComputer();
+            newAddComputer.Show();
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            ViewPrinters newViewPrinters = new ViewPrinters();
+            newViewPrinters.Show();
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            ViewSoftware newViewSoftware = new ViewSoftware();
+            newViewSoftware.Show();
         }
     }
 }
